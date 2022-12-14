@@ -26,8 +26,8 @@
 
 @media(max-width: 565px) {
   .header-section div svg {
-    width: 46px;
-    height: 24px;
+    /* width: 46px;
+    height: 24px; */
   }
   .app-header nav a {
     font-size: 12px;
