@@ -1,8 +1,7 @@
 .features {
-    padding-left: 200px;
-    padding-right: 200px;
     background-color: var(--clr5);
     margin-top: 120px;
+    margin-bottom: 137px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

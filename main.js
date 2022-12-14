@@ -6,6 +6,7 @@ import appHeader from './cmps/app-header.cmp.js'
 import appFooter from './cmps/app-footer.cmp.js'
 import hero from './cmps/hero.js'
 import features from './cmps/features.js'
+import mainFeature from './cmps/main-feature.js'
 
 const options = {
 	template: `
@@ -13,6 +14,7 @@ const options = {
             <app-header />
             <hero></hero>
             <features></features>
+            <main-feature></main-feature>
             <app-footer />
         </section>
     `,
@@ -20,7 +22,8 @@ const options = {
 		appHeader,
 		appFooter,
         hero,
-        features
+        features,
+        mainFeature
 	},
 }
 
