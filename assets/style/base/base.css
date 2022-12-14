@@ -30,6 +30,9 @@ p {
   font-family: 'Raleway', sans-serif;
 }
 
+li{
+  list-style-type: none;
+}
 a {
    color: var(--clr1);
   text-decoration: none;
