@@ -2,13 +2,15 @@
   box-sizing: border-box;
 }
 
-html {
-  
-}
 
 body {
+  display: grid;
   margin: 0;
-  color: var(--clr4);
+  background-color: var(--clr4);
+}
+
+#app{
+  display: grid;
 }
 
 h1,
@@ -17,15 +19,19 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 1em;
+  margin:0;
+  color: var(--clr1);
   font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 
 p {
-  margin: 0 0 1em;
+  margin: 0;
+  color: var(--clr1);
+  /* margin: 0 0 1em; */
 }
 
 a {
+   color: var(--clr1);
   text-decoration: none;
   color: unset;
 }
@@ -40,14 +46,6 @@ object {
   max-width: 100%
 }
 
-/* tap targets: */
-nav a,
-button {
-  min-width: 48px;
-  min-height: 48px;
-}
-
-/* Simple and useful CSS Debugging Technique */
 .debug * {
   outline: 1px solid gold
 }

@@ -1,0 +1,29 @@
+.hero-center {
+    flex-direction: column;
+}
+
+.hero-center img {
+    margin-bottom: 36px;
+}
+
+.hero-center h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 734px;
+    height: 114px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.hero-center p{
+    max-width: 589px;
+    height: 88px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 34px;
+}

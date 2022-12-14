@@ -1,7 +1,34 @@
 .app-header {
-  background-color: var(--clr5);
-  color: var(--secondary-clr1);
-  padding: 1em;
+  padding-top: 1em;
+  margin-bottom: 75px;
+}
+
+
+.header-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.header-section div h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.header-section nav{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.app-header nav a{
+  color: var(--clr1);
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 
 @media(max-width: 720px) {

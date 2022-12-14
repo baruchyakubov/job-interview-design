@@ -1,7 +1,23 @@
-.main-layout {
+/* .main-layout {
   margin: 0 auto;
   padding-left: 1.6rem;
   padding-right: 1.6rem;
+} */
+
+.main-container{
+  display: grid;
+  grid-template-columns:
+  minmax(1px , 1fr)
+  minmax(auto , 1440px)
+  minmax(1px , 1fr);
+}
+
+.main-container>*{
+  grid-column: 2;
+}
+
+.full{
+  grid-column: 1/-1;
 }
 
 

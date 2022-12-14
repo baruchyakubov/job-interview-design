@@ -1,11 +1,18 @@
 export default {
-	template: `
-        <header class="app-header">
-            <h1>AppSus</h1>
+    template: `
+        <header class="app-header main-container full">
+            <section class="header-section">
+            <div>
+              <h1>Fylo</h1>
+            </div>
+           
             <nav>
-                <!-- <router-link to="/">Home</router-link> | 
-                <router-link to="/about">About</router-link> -->
+                <a href="">Features</a>
+                <a href="">Team</a>
+                <a href="">Sign In</a>
             </nav>
+            </section>
+        
         </header>
     `,
 }
